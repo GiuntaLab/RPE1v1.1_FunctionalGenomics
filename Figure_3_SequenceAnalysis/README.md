@@ -118,8 +118,8 @@ Illumina short reads were aligned to the same reference genomes using BWA-MEM, w
 ```bash
 # Short-read alignment
 bwa index ref.fa
-bwa mem -k25 -p ref.fa *illumina.fastq | samtools view -b -F 2308 - | samtools sort -@ 128 - -O BAM -o hifi_reads_primary.bam
-samtools index hifi_reads_primary.bam
+bwa mem -k25 -p ref.fa *illumina.fastq | samtools view -b -F 2308 - | samtools sort -@ 128 - -O BAM -o illummina_reads_primary.bam
+samtools index illumina_reads_primary.bam
 
 # HiFi read alignment
 minimap2 -ax map-hifi index_reference *hifi_fastq.gz --MD --secondary=no | samtools view -b - | samtools sort -@ 128 - -O BAM -o hifi_reads_primary.bam
