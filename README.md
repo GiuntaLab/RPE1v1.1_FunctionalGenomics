@@ -3,6 +3,8 @@ This folder contains documentation, scripts and files relative to the main figur
 
 **Cell line-matched reference enables high-precision functional genomics**. Nature Communications, 2025 (*in press*)
 
+[![DOI](https://zenodo.org/badge/1075486516.svg)](https://doi.org/10.5281/zenodo.17608522)
+
 In this new work, we demonstrate the improvements when using the diploid reference genome of the human laboratory cell  line RPE-1, RPE1v1.1 (Volpe, Colantoni et al. [The reference genome of the human diploid cell line RPE-1](https://www.nature.com/articles/s41467-025-62428-z). *Nature Communications*, 2025; https://github.com/GiuntaLab/RPE1), including the two fully phased haplotypes, for sequencing and omics data analyses. \
 RPE1v1.1 has been used as matched reference genomes to analyze sequencing data generated from the same cell line, an approach we refer to as *isogenomic reference genome*. The improvement in alignment quality using matched reads-reference enables high-precision mapping for profiling phased epigenome and methylome. The two publications were originally shared as preprints as one manuscript: 
 
