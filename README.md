@@ -5,25 +5,29 @@ This folder contains documentation, scripts and files relative to the main figur
 
 [![DOI](https://zenodo.org/badge/1075486516.svg)](https://doi.org/10.5281/zenodo.17608522)
 
-In this new work, we demonstrate the improvements when using the diploid reference genome of the human laboratory cell  line RPE-1, RPE1v1.1 (Volpe, Colantoni et al. [The reference genome of the human diploid cell line RPE-1](https://www.nature.com/articles/s41467-025-62428-z). *Nature Communications*, 2025; https://github.com/GiuntaLab/RPE1), including the two fully phased haplotypes, for sequencing and omics data analyses. \
-RPE1v1.1 has been used as matched reference genomes to analyze sequencing data generated from the same cell line, an approach we refer to as *isogenomic reference genome*. The improvement in alignment quality using matched reads-reference enables high-precision mapping for profiling phased epigenome and methylome. The two publications were originally shared as preprints as one manuscript: 
+In this new work, we demonstrate the improvements when using the diploid reference genome of the human laboratory cell  line RPE-1, RPE1v1.1 ([The reference genome of the human diploid cell line RPE-1](https://www.nature.com/articles/s41467-025-62428-z). *Nature Communications*, 2025; https://github.com/GiuntaLab/RPE1), including the two fully phased haplotypes, for sequencing and omics data analyses. \
+RPE1v1.1 has been used as matched reference genomes to analyze sequencing data generated from the same cell line, an approach we refer to as *isogenomic reference genome*. The improvement in alignment quality using matched reads-reference enables high-precision mapping for profiling phased epigenome and methylome. 
 
-**Preprint:** Volpe et al., [The complete diploid reference genome of RPE-1 identifies human phased epigenetic landscapes](https://www.biorxiv.org/content/10.1101/2023.11.01.565049v1), 2023. \
+The two publications were originally shared as preprints in one manuscript: 
+**Preprint:** [The complete diploid reference genome of RPE-1 identifies human phased epigenetic landscapes](https://www.biorxiv.org/content/10.1101/2023.11.01.565049v1), 2023. \
 Documentation, scripts, files and figures relative to the main figures are available in the https://github.com/GiuntaLab/RPE1/tree/main/RPE1v1.1_FunctionalGenomics folder.
 
 Altogether, the improvements in haplotype-resolved mapping, guide RNA (gRNA) design for genome engineering, transcriptome analysis and alignment of sequencing reads serve as a proof-of-concept calling for a comprehensive catalog of complete assemblies for commonly used cells for a widespread application of isogenomic reference genomes to enable high-precision multi-omics analyses.
 
-# RPE1 Genome Assembly
-## RPE1v1.1
-Volpe, Colantoni et al. [The reference genome of the human diploid cell line RPE-1](https://www.nature.com/articles/s41467-025-62428-z). *Nature Communications*, 2025
+# Human Diplopid Reference for high-precision Functional Genomics, Genome Engineering, Transcriptomic, Phased Epigenetic & beyond
+## Functional Genomics using the diploid reference genome matched to the model system
+Here, we analysed sequencing, omics data and other genomic information through an isogenomic approach where the reads and the reference are matched. In this case, we used experimental data from RPE-1 cells and used the RPE1.v1.1 (see below) to map and interpret the data. Documentation, scripts, files and figures relative to the main figures are available in the [https://github.com/GiuntaLab/RPE1/tree/main/RPE1v1.1](https://github.com/GiuntaLab/RPE1v1.1_FunctionalGenomics) folder.
+Supplemental information is available in the **Zenodo repository**: https://zenodo.org/records/17608523
+Scripts for the analyses, codes and data for each figure can be found in the respective folders (Fig. 2, Fig. 3, Fig. 4, Fig. 5, Fig. 6), including supplementary information pertaning to each figure.
 
-Docmentation, scripts, files and figures relative to the main figures are available in the https://github.com/GiuntaLab/RPE1/tree/main/RPE1v1.1 folder.
+## RPE1v1.1
+[The reference genome of the human diploid cell line RPE-1](https://www.nature.com/articles/s41467-025-62428-z). *Nature Communications*, 2025
+
+As described in a separate publication, our laboratory performed sequencing, de novo assembly and complete haplotypes phasing of the reference genome for the RPE-1 cell line. Documentation, scripts, files and figures relative to the main figures are available in the https://github.com/GiuntaLab/RPE1/tree/main/RPE1v1.1 folder.
 Supplemental information is available in the **Zenodo repository**: https://doi.org/10.5281/zenodo.15789913.
 
 ## Genome availability
-
 The RPE1v1.1 genome has been deposited in NCBI GenBank under the accession numbers [JBJQNK000000000](https://www.ncbi.nlm.nih.gov/nuccore/JBJQNK000000000) (Hap1) and [JBJQNL000000000](https://www.ncbi.nlm.nih.gov/nuccore/JBJQNL000000000) (Hap2), with links to BioProject accession numbers [PRJNA1193286](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1193286) (Hap1) and [PRJNA1193302](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1193302) (Hap2), both under the umbrella BioProject accession number [PRJNA1195024](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1195024).
-
 
 To download the diploid RPE1v1.1 genome with the chromosome names used in the study, please use the following link, fill in the form, access the link that will be emailed to you and download the *GIUNTAlab_RPE1V1.1.gz* file: https://forms.gle/7TPggHvT1Na2G3oX7
 
